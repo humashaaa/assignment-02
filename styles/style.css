@@ -209,6 +209,62 @@ padding: 32px;
 text-align: left;
 margin-left: 700px;
 }
+.bonus{
+    
+    background-image: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    padding: 56px 598px;
+    margin-left: 370px;
+    margin-top: 80px;
+   
+}
+.clock, .people, .map2{
+    display: flex;
+    margin: 45px 30px;
+    align-items: center;
+}
+.satoroni{
+   display: flex;
+   gap: 25px;
+}
+.satoroni-h2{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+margin: 0 40px;
+
+}
+.text{
+    margin: 15px 40px;
+}
+.bonus-text{
+    border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+width: 579px;
+height: 389px;
+
+}
+.satoroni-price{
+    color: #FF5400;
+font-size: 20px;
+font-weight: 800;
+margin-left: 40px;
+
+}
+.malayshia{
+    background-image: url('../Images/Group\ 40.png');
+    background-repeat: no-repeat;
+    padding: 56px 0px;
+    margin-top: 30px;
+}
+.last{
+    margin-top: 30px;
+}
+
+
+/* deals and discount styles */
 
 
 /* resposive styles */
@@ -372,6 +428,74 @@ padding: 10px 20px;
 text-align: left;
 margin-left: 10px;
 }
+.bonus{
+    
+    background-image: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    padding: 15px 58px;
+    margin-left: 6px;
+    margin-top: 50px;
+    border-radius: 7px;
+    height: 370px;
+    
+   
+}
+.clock, .people, .map2{
+    display: flex;
+    margin: 15px 5px;
+    align-items: center;
+}
+.satoroni{
+    gap: 0px;
+}
+
+.satoroni-h2{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+margin: 0 10px;
+}
+.text{
+    margin: 0px 6px;
+ 
+}
+.bonus-text{
+    border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+width: 325px;
+height: 320px;
+
+}
+.satoroni-price{
+    color: #FF5400;
+font-size: 15px;
+font-weight: 800;
+margin-left: 15px;
+
+}
+.malayshia{
+    background-image: url('../Images/Group\ 40.png');
+    background-repeat: no-repeat;
+    padding: 10px 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.last{
+    margin-top: 5px;
+}
+.btn{
+    width: 150px;
+height: 50px;
+padding: 5px;
+margin-top: 5px;
+font-size: 20px;
+font-weight: 800;
+
+}
+
+
 
 
     
