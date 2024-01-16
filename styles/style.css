@@ -430,8 +430,10 @@ font-family: Mulish;
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
-line-height: 36px; /* 150% */
+line-height: 36px; 
 width: 276px;
+margin-left: 90px;
+margin-top: 90px;
 }
 /* news-letter section */
 .news-letter{
@@ -484,14 +486,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-    /* width: 393px;
-    height: 52px;
-   display: flex;
-   flex-direction: column;
-   gap: 20px;
-   border: none;
- 
-    */
+    
     gap: 20px;
 }
 .you{
@@ -586,7 +581,11 @@ margin-left: 350px;
        
     }
     .nav>img{
-
+display: flex;
+ margin-right: 180px;
+    }
+    .web-header{
+        margin-right: 200px;
     }
     
     
@@ -608,19 +607,20 @@ margin-left: 350px;
        }
        .explore-title{
        
-    font-size: 39px;
+    font-size: 28px;
     font-weight: 800;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 9px;
+    margin-bottom: 9px;
     }
     .explore-des{
-        width: 370px;
+        width: 330px;
         color: #FFF;
         font-size: 16px;
         font-weight: 400;
-        line-height: 26px;
+        line-height: 20px;
         margin-top: 0;
         margin-bottom: 10px;
+        margin-left: 0px;
     
     }
     .section-02{
@@ -630,14 +630,14 @@ margin-left: 350px;
     
     }
     .our-tour{
-       margin: 60px 10px;
+       margin: 60px 5px;
     
     }
     
     .our-tour>h1{
        font-size: 35px;
    margin-top: 30px;
-    margin-left: 70px;
+    margin-left: 10px;
     
     }
     .our-tour>p{
@@ -647,16 +647,16 @@ margin-left: 350px;
     line-height: 26px; 
     width: 380px;
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 .ul-list{
     list-style: disc;
-   margin-left: 44px;
+   margin-left: 35px;
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px; 
-    width: 360px;
+    width: 350px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -668,9 +668,102 @@ margin-left: 50px;
 }
 .tour-img img{
    width: 360px;
-   margin-left: 70px;
+   margin-left: 10px;
 
 }
+/* destination */
+.h1{
+    text-align: center;
+    margin-left: 10px;
+}
+.destination{
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.maldive{
+    width: 370px;
+   margin-left: 16px;
+   border-radius: 15px;
+}
+.maldive>h3, .Indonesia>h3{
+    color: #FFF;
+text-align: center;
+font-size: 28px;
+font-weight: 800;
+margin-top: 100px;
+
+}
+.Indonesia{
+    width: 370px;
+    margin-left: 16px;
+    border-radius: 15px;
+   }
+.destination02{
+    margin-top: 24px;
+   flex-direction: column;
+    gap: 24px;
+}
+.Srilanka>h3, .North-America>h3, .Kashmir>h3{
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 100px;
+    
+}
+.Srilanka{
+    width: 370px;
+    margin-left: 16px;
+    border-radius: 15px;
+   
+}
+.North-America{
+    width: 370px;
+    margin-left: 16px;
+    border-radius: 15px;
+   
+}
+.Kashmir{
+    width: 100%;
+    width: 370px;
+    margin-left: 16px;
+    border-radius: 15px;
+   object-fit: cover;
+   
+}
+.destination03{
+    margin-top: 24px;
+    flex-direction: column;
+    gap: 24px;
+}
+.Bangladesh{
+    width: 370px;
+    margin-left: 16px;
+    border-radius: 15px;
+   
+
+}
+.Bandarban{
+    width: 370px;
+    margin-left: 16px;
+    border-radius: 15px;
+   
+}
+.Bangladesh>h3, .Bandarban>h3{
+    color: #FFF;
+text-align: center;
+font-size: 28px;
+font-weight: 800;
+margin-top: 100px;
+
+}
+
+
+
+
+
 /* why choose us section */
 .choose{
 margin-top: 50px;
@@ -687,7 +780,7 @@ margin-top: 50px;
     flex-direction: column;
      margin-top: 10px;
     margin-bottom: 20px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 .hotel{
     width: 373px;
@@ -731,17 +824,18 @@ border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
 padding: 10px 20px;
 text-align: left;
-margin-left: 10px;
+margin-left: 15px;
 }
 .bonus{
     
     background-image: url('../Images/Group\ 39.png');
     background-repeat: no-repeat;
     padding: 15px 58px;
-    margin-left: 6px;
+    margin-left: 5px;
     margin-top: 50px;
     border-radius: 7px;
     height: 370px;
+    width: 360px;
     
    
 }
@@ -760,8 +854,9 @@ font-size: 24px;
 font-weight: 800;
 margin: 0 10px;
 }
+
 .text{
-    margin: 0px 6px;
+    margin: 0px 0px;
  
 }
 .bonus-text{
@@ -769,7 +864,7 @@ margin: 0 10px;
 border: 2px solid #FFF;
 background: rgba(255, 255, 255, 0.80);
 backdrop-filter: blur(2.5px);
-width: 325px;
+width: 305px;
 height: 320px;
 
 }
@@ -799,6 +894,182 @@ font-size: 20px;
 font-weight: 800;
 
 }
+.perfect{
+    text-align: left;
+}
+.perfect>h1{
+    color: #131318;
+font-size: 28px;
+font-weight: 800;
+line-height: 30px; 
+width: 400px;
+margin-top: 50px;
+margin-bottom: 30px;
+}
+.bp{
+    margin-left: 0px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    width: 174px;
+    height: 52px;
+    padding: 13px;
+    margin-top: 40px;
+}
+.perfect-place{
+    flex-direction: column;
+    gap: 24px;
+}
+.place-img{
+    width: 370px;
+    margin-left: 5px;
+    border-radius: 15px;
+   
+margin-top: 30px;
+}
+.place-img>h2{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; 
+width: 276px;
+margin-left: 40px;
+margin-top: 90px;
+}
+/* news-letter section */
+.news-letter{
+  margin-top: 50px;
+  flex-direction: column;
+gap: 24px;
+}
+.new-img>img{
+    width: 330px;
+    height: 300px;
+    margin-left: 0px;
+    border-radius: 15px;
+   margin-top: 30px;
+   margin-right: 450px;
+   
+}
+.news{
+    text-align: left;
+}
+.h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 30px;
+    margin-left: 10px;
+   
+}
+.news>p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 350px;
+    margin-top: 30px;
+}
+.hr1{
+    margin-top: 30px;
+    width: 300px;
+height: 1px;
+background: rgba(19, 19, 24, 0.10);
+margin-bottom: 50px;
+}
+.in{
+    color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    
+    gap: 20px;
+}
+.you{
+    margin-bottom: 20px;
+}
+.sub{
+    border-radius: 8px;
+background: #FF5400;
+width: 250px;
+height: 52px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 20px;
+border: none;
+}
+.in>input{
+    width: 300px;
+    height: 52px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   border: none;
+   border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+padding: 20px 20px;
+gap: 20px;
+}
+
+
+
+
+/* footer section */
+.footer{
+    width: 390px;
+height: 380px;
+
+padding: 20px 30px;
+margin-top: 8800px;
+margin-left: 0px;
+}
+.web-footer{
+    display: flex;
+    margin-left: 50px;
+}
+.pi{
+    margin-left: 20px;
+}
+.social{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.hr2{
+    width: 330px;
+height: 1px;
+background: rgba(19, 19, 24, 0.10);
+margin-top: 30px;
+}
+.copy{
+    color: #131318;
+font-family: Inter;
+font-size: 16px;
+font-weight: 300;
+margin-top: 30px;
+margin-left: 50px;
+
+}
+
+
 
 
 
