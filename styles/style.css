@@ -44,6 +44,7 @@ font-weight: 400;
     font-size: 18px;
 font-weight: 400;
 }
+
 /* main section */
 
 .explore{
@@ -81,7 +82,10 @@ margin-bottom: 45px;
     margin-left: 200px;
 
 }
-
+.when{
+    display: flex;
+    align-items: center;
+}
 .search{
     display: flex;
     align-items: center;
