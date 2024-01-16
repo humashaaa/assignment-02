@@ -20,6 +20,7 @@
 
 }
 .bee{
+    color: #FF5400;
 
 }
 .nav{
@@ -99,6 +100,7 @@ margin-bottom: 45px;
     color: #131318;
 font-size: 40px;
 font-weight: 800;
+margin-top: 30px;
 
 }
 .our-tour>p{
@@ -107,6 +109,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px; 
 width: 577px;
+margin-top: 40px;
 }
 .ul-list{
     list-style: disc;
@@ -116,6 +119,8 @@ width: 577px;
     font-weight: 400;
     line-height: 26px; 
     width: 577px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .btn-primary{
     border-radius: 8px;
@@ -132,4 +137,242 @@ margin-top: 30px;
 }
 .tour-img{
     width: 500px;
+}
+/* why choose us section */
+.choose{
+margin-top: 50px;
+}
+.choose>h1{
+    color: #131318;
+    text-align: center;
+   font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+  
+}
+.choose>p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+     font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 643px;
+    margin-left: 620px;
+}
+.choose-flex{
+    display: flex;
+    gap: 25px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    margin-left: 370px;
+}
+.hotel{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding: 32px;
+}
+
+.folder{
+    color: #131318;
+text-align: left;
+font-size: 24px;
+font-weight: 800;
+}
+.pfolder{
+    width: 486px;
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+.service{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 32px;
+
+}
+.price{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding: 32px;
+text-align: left;
+margin-left: 700px;
+}
+
+
+/* resposive styles */
+@media screen and (max-width:576px) {
+    .header{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        
+    }
+    
+    
+    .nav{
+       flex-direction: column;
+       gap: 10px;
+    }
+    
+    
+    /* main section */
+    .gradient{
+        
+        width: 370px;
+        height: 300px;
+        border-radius: 16px;
+        margin-left: 10px;
+       
+    }
+    .explore{
+       width: 370px;
+        height: 300px;
+        border-radius: 16px;
+        text-align: center;
+        margin-left: 10px;
+       }
+       .explore-title{
+       
+    font-size: 39px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    .explore-des{
+        width: 370px;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    
+    }
+    .section-02{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    
+    }
+    .our-tour{
+       margin: 60px 10px;
+    
+    }
+    
+    .our-tour>h1{
+       font-size: 35px;
+   margin-top: 30px;
+    margin-left: 70px;
+    
+    }
+    .our-tour>p{
+        color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    width: 380px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.ul-list{
+    list-style: disc;
+   margin-left: 44px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    width: 360px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.ul>li{
+    margin-bottom: 38px;
+}
+.btn-primary{
+margin-left: 50px;
+}
+.tour-img img{
+   width: 360px;
+   margin-left: 70px;
+
+}
+/* why choose us section */
+.choose{
+margin-top: 50px;
+}
+
+.choose>p{
+    text-align: left;
+    width: 343px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.choose-flex{
+    flex-direction: column;
+     margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.hotel{
+    width: 373px;
+    height: 250px;
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding: 10px 20px;
+}
+
+.folder{
+    color: #131318;
+text-align: left;
+font-size: 24px;
+font-weight: 800;
+margin-bottom: 5px;
+}
+.pfolder{
+    width: 330px;
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+.service{
+    width: 373px;
+    height: 250px;
+    border-radius: 16px;
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 10px 20px;
+
+}
+.price{
+    width: 373px;
+    height: 250px;
+    border-radius: 16px;
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding: 10px 20px;
+text-align: left;
+margin-left: 10px;
+}
+
+
+    
 }
