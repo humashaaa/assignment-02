@@ -512,10 +512,31 @@
 }
 
 
-.new-img {
+.new-img>img {
     width: 672px;
     height: 422px;
-    flex-shrink: 0;
+}
+.rotate-btn{
+    position: relative;
+    width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+border-radius: 16px;
+background: #FF5400;
+top: -170px;
+left: 165px;
+border: none;
+color: #FFF;
+}
+.rotate-btn>h2{
+   text-align: center;
+font-size: 24px;
+font-weight: 400;
+}
+.rotate-btn>h1{
+   text-align: center;
+font-size: 32px;
+font-weight: 800;
 }
 
 .news {
@@ -543,7 +564,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    /* 162.5% */
     width: 350px;
     margin-top: 30px;
 }
@@ -1080,7 +1100,10 @@
         flex-direction: column;
         gap: 24px;
     }
-
+.new-img{
+margin-right: 200px;
+   text-align: left;
+}
     .new-img>img {
         width: 330px;
         height: 300px;
@@ -1088,7 +1111,31 @@
         border-radius: 15px;
         margin-top: 30px;
         margin-right: 450px;
+     
 
+    }
+    .rotate-btn{
+        position: relative;
+        width: 200px;
+    height: 80px;
+     /* transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    top: -10px;
+    right: 100px;
+    border: none;
+    color: #FFF;
+   right: -500px;  */
+    }
+    .rotate-btn>h2{
+       text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    }
+    .rotate-btn>h1{
+       text-align: center;
+    font-size: 32px;
+    font-weight: 800;
     }
 
     .news {
